@@ -1,28 +1,42 @@
-a = int(input("введите первое число: "))
-b = int(input("введите второе число: "))
-c = int(input("введите третье число: "))
-d = a + b + c
-print("сумма ваших чисел", f"{a} + {b} + {c} = {d}")
-e = a * b * c
-print("произведение ваших чисел =", e)
+#Задача 1
+a = int(input("Введите первое число: "))
+b = int(input("Введите второе число: "))
+c = int(input("Введите третье число: "))
+operation = input("Введите действие(сумма/произведение): ")
+if operation == "сумма":
+  summ = a + b + c
+  print("Сумма:", summ)
+elif operation == "произведение":
+  proizv = a * b * c
+  print("Произведение:", proizv)
+else:
+  print("Некорректный выбор")
+
+#Задача 2
+a = float(input("Введите первое число: "))
+b = float(input("Введите второе число: "))
+c = float(input("Введите третье число: "))
+viv = int(input("максимум = 1: минимум = 2: среднеарифметическое = 3:" ))
+if viv == 1:
+  print(max(a, b, c))
+elif viv == 2:
+  print(min(a, b, c))
+elif viv == 3:
+  average = (a + b + c)/3
+  print("Среднее значение", average)
+else:
+  print("Неправильный выбор")
+
+#Задача 3
+meters = float(input("Введите количество метров: "))
+viv = int(input("мили = 1: дюймы = 2: ярды = 3: "))
+if viv == 1:
+ print(meters * 0.00062137)
+elif viv == 2:
+  print(meters * 39.37)
+elif viv == 3:
+  print(meters + 1.09361)
+else:
+  print("Неправильный выбор")
 
 
-a = int(input("введите заработную плату: "))
-b = int(input("введите ежемесячный платеж по кредиту: "))
-c = int(input("введите задолженность по коммунальным услугам: "))
-d = "остаток з/п"
-e = a - b - c
-print(d, e)
-
-
-a = int(input("введите высоту ромба: "))
-b = int(input("введите ширину ромба: "))
-c = (a * b) // 2
-d = "площадь ромба"
-print(d, c)
-
-
-print(' To be \n or not \n to be')
-
-
-print("'Life is what happens \n      when \n         you're busy making other plans' \n                                     John Lennon")
