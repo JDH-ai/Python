@@ -1,15 +1,15 @@
 # Задача 6
-N = int(input(" Введите число N: "))
+N = int(input("Введите число N: "))
 a = 0
-for i in range(2, N + 1, 2):
+for i in range(2, N +1, 2):
     a = a + i
 print(f"{a} (", end="")
-for i in range(2, N + 1, 2):
+for i in range(2, N +1,2):
     print(f"{i}+", end="")
 print("\b)")
 
 # Задание 7
-N = int(input(" Введите число N: "))
+N = int(input("Введите число N: "))
 a = 1
 for i in range(1, N + 1):
     a = a * i
@@ -19,7 +19,7 @@ for i in range(N, 0, -1):
 print("\b)")
 
 # Задание 8
-N = int(input(" Введите число N: "))
+N = int(input("Введите число N: "))
 a = 0
 b = N
 c = N
@@ -32,14 +32,14 @@ for i in range(1, a + 1):
 print()
 
 # Задание 9
-N = int(input(" Введите число N: "))
+N = int(input("Введите число N: "))
 a = 0
 for i in str(N):
     a = a + 1
 print(a)
 
 # Задание 10
-N = int(input(" Введите число N: "))
+N = int(input("Введите число N: "))
 a = 0
 for i in str(N):
     a = a + int(i)
