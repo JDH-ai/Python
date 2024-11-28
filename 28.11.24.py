@@ -1,10 +1,10 @@
 # Задача 6
 N = int(input("Введите число N: "))
 a = 0
-for i in range(2, N +1, 2):
+for i in range(2, N + 1, 2):
     a = a + i
 print(f"{a} (", end="")
-for i in range(2, N +1,2):
+for i in range(2, N + 1, 2):
     print(f"{i}+", end="")
 print("\b)")
 
