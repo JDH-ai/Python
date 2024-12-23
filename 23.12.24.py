@@ -1,6 +1,4 @@
 # Задача 1
-from itertools import combinations
-
 numbers = [1,3,5,7,2,4,6,8]
 max_sum = 10
 groups = []
